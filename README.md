@@ -1,6 +1,7 @@
 # Mapbox Template
 This repository contains a template for creating a map using Mapbox. The code is written in JavaScript and uses the Mapbox GL JS library.
 
+Demo: https://www.namwkim.org/mapbox-template/
 ## Getting Started
 To get started, you will need to obtain an access token from Mapbox. You can do this by creating an account on the Mapbox website and following the instructions to create a new access token.
 
