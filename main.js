@@ -1,10 +1,6 @@
-// load accessToken from the access-token file using d3 using async/await
-async function getAccessToken() {
-    const response = await d3.text("access-token");
-    return response;
-}
-// Set the access token
-mapboxgl.accessToken = await getAccessToken();
+
+// Set the access token (replace this with your own token)
+mapboxgl.accessToken = "pk.eyJ1Ijoia2ltcnkiLCJhIjoiY2xvZDJrMGxwMDM1dTJsbzFkZ3R5MGE3ayJ9.p1jTlUpQc3JbU9c8yD1lyg";
 
 // Initialize the map
 var map = new mapboxgl.Map({
